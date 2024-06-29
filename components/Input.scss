@@ -1,0 +1,26 @@
+$inputHeight: 1.5rem;
+$inputWidth: 100%;
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+  padding: 1rem;
+
+  label {
+    width: $inputWidth;
+
+    input {
+      height: $inputHeight;
+      width: $inputWidth;
+    }
+  }
+
+  input.form-submit {
+    height: $inputHeight;
+    width: $inputWidth;
+  }
+}

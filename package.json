@@ -1,0 +1,16 @@
+{
+  "name": "bforms",
+  "version": "1.0.0",
+  "description": "forms plugin for bacuri framework",
+  "main": "main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "sass ./main.scss:./test/style.css",
+    "dev": "sass -w ./main.scss:./test/style.css"
+  },
+  "author": "Luigi Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.6"
+  }
+}
